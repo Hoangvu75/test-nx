@@ -22,7 +22,7 @@ jobs:
           node-version: '14'  # Specify your Node.js version
 
       - name: Install dependencies
-        run: npm install
+        run: yarn
 
       - name: Run affected tests
         run: npx nx affected:test --base=main
