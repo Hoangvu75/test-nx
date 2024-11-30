@@ -36,7 +36,11 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/test-nx-e2e/**/*"]
+      "exclude": [
+        "apps/test-nx-e2e/**/*",
+        "apps/test-nx-2-e2e/**/*",
+        "apps/test-nx-3-e2e/**/*"
+      ]
     }
   ]
 }

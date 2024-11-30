@@ -1,7 +1,8 @@
 import { exec } from 'child_process';
 
-const projectPath = 'apps/test-nx/tsconfig.app.json'; // Adjust this to your actual path
-const command = `npx tsc -p ${projectPath}`;
+const projectPath = 'apps/test-nx/tsconfig.app.json';
+const projectPath2 = 'apps/test-nx-2/tsconfig.app.json';
+const command = `npx tsc -p ${projectPath} && npx tsc -p ${projectPath2}`;
 
 const start = Date.now();
 

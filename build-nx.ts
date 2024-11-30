@@ -1,6 +1,6 @@
 import { exec } from 'child_process';
 
-const command = `nx run test-nx:build`;
+const command = `nx run-many --target=build --all`;
 const start = Date.now();
 
 exec(command, (error, stdout, stderr) => {
