@@ -20,4 +20,4 @@ exec(command, (error, stdout, stderr) => {
   }
 });
 
-// ts-node build.ts
+// ts-node build.ts 
